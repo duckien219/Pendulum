@@ -12,6 +12,7 @@
 		077961251ED424A60013DC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077961231ED424A60013DC3D /* Main.storyboard */; };
 		077961271ED424A60013DC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077961261ED424A60013DC3D /* Assets.xcassets */; };
 		0779612A1ED424A60013DC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077961281ED424A60013DC3D /* LaunchScreen.storyboard */; };
+		077961321ED424BE0013DC3D /* pendulum.png in Resources */ = {isa = PBXBuildFile; fileRef = 077961311ED424BE0013DC3D /* pendulum.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		077961261ED424A60013DC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077961291ED424A60013DC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0779612B1ED424A60013DC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077961311ED424BE0013DC3D /* pendulum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pendulum.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0779611F1ED424A60013DC3D /* AppDelegate.swift */,
 				077961211ED424A60013DC3D /* ViewController.swift */,
+				077961311ED424BE0013DC3D /* pendulum.png */,
 				077961231ED424A60013DC3D /* Main.storyboard */,
 				077961261ED424A60013DC3D /* Assets.xcassets */,
 				077961281ED424A60013DC3D /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0779612A1ED424A60013DC3D /* LaunchScreen.storyboard in Resources */,
+				077961321ED424BE0013DC3D /* pendulum.png in Resources */,
 				077961271ED424A60013DC3D /* Assets.xcassets in Resources */,
 				077961251ED424A60013DC3D /* Main.storyboard in Resources */,
 			);

@@ -9,17 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var imv_pendulum: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        animate()
+        pendulum()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func animate() {
+        UIView.animate(withDuration: 3, animations: {
+            self.imv_pendulum.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 4)
+        }) {_ in
+            UIView.animate(withDuration: 3, animations: {
+                self.imv_pendulum.transform = CGAffineTransform(rotationAngle: -CGFloat.pi / 4)
+            }) {_ in
+                self.animate()
+            }
+        }
     }
-
-
+    func pendulum() {
+        imv_pendulum.layer.anchorPoint = CGPoint(x: 0.5, y: 0) // chọn tâm quay
+    }
 }
 
